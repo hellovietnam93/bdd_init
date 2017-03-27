@@ -1,0 +1,9 @@
+<!-- app/views/posts/index.html.erb -->
+<ul>
+  <% @posts.each do |post| %>
+    <li>
+      <%= post.title %><br />
+       <%= post.content %>
+    </li>
+  <% end %>
+</ul>
